@@ -331,6 +331,9 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+.client-icon {
+}
 .client-item {
   margin-right: 30px;
 }
