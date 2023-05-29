@@ -324,7 +324,7 @@ ul {
   color: var(--icon-fill-color);
   fill: currentColor;
   border-radius: 4px;
-  text-align: center;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,8 +340,7 @@ ul {
 }
 .client-link:hover,
 .client-link:focus {
-  border-color: var(--color-link-first);
-  fill: var(--color-link-first);
+  color: var(--color-link-first);
 }
 
 /* Stopka*/
@@ -351,7 +350,7 @@ ul {
   padding: 60px 0;
 }
 
-.footer-header-h3 {
+.footer-header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -359,6 +358,10 @@ ul {
   text-transform: uppercase;
 
   color: var(--color-text-third);
+}
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
 }
 .footer-links-webstudio {
   padding-bottom: 20px;
@@ -434,6 +437,9 @@ ul {
   align-items: center;
   justify-content: center;
 }
+.div-joinus {
+  margin-left: 70px;
+}
 .footer-social-icon-item {
   width: 44px;
   height: 44px;
@@ -465,7 +471,7 @@ ul {
 }
 .button-portfolio {
   background: var(--background-color-team);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   border-radius: 4px;
   padding: 6px 25px;
   border-style: none;
@@ -483,10 +489,9 @@ ul {
 .button-portfolio:hover {
   background: var(--color-link-first);
   color: var(--color-text-third);
-  cursor: pointer;
+
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 .button-portfolio-position {
   display: flex;
@@ -514,7 +519,7 @@ ul {
 }
 
 .portfolio-foto {
-  cursor: pointer;
+  display: block;
 }
 
 .portfolio-foto:hover,
